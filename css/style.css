@@ -197,21 +197,6 @@ h1, h2, h3, h4, h5, h6, figure {
     font-size: 14px;
   }
 }
-#fh5co-header .display-tc .profile-thumb,
-.fh5co-cover .display-tc .profile-thumb {
-  background-size: cover !important;
-  background-position: center center;
-  background-repeat: no-repeat;
-  position: relative;
-  height: 200px;
-  width: 200px;
-  margin: 0 auto;
-  margin-bottom: 30px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  border-radius: 50%;
-}
 #fh5co-header .display-tc .fh5co-social-icons li a,
 .fh5co-cover .display-tc .fh5co-social-icons li a {
   color: #fff;
@@ -222,10 +207,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: #FF9000;
+  background: #fff;
 }
 #fh5co-features h2 {
-  color: #fff;
+  color: #000;
 }
 #fh5co-features .services-padding {
   padding: 7em 0;
@@ -265,7 +250,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-features .feature-left h3 {
   font-size: 24px;
   font-weight: 400;
-  color: #fff;
+  color: #FF9000;
 }
 #fh5co-features .feature-left p {
   font-size: 16px;
@@ -308,10 +293,10 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: #fff;
+  background: #FF9000;
 }
 .fh5co-bg-dark .fh5co-heading h2 {
-  color: #000 !important;
+  color: #fff !important;
 }
 
 .info {
