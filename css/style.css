@@ -215,16 +215,16 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-features .services-padding {
   padding: 7em 0;
 }
-#fh5co-features .feature-left {
+#fh5co-features .feature {
   margin-bottom: 40px;
-  float: left;
+  /*float: left;*/
 }
 @media screen and (max-width: 992px) {
-  #fh5co-features .feature-left {
+  #fh5co-features .feature {
     margin-bottom: 30px;
   }
 }
-#fh5co-features .feature-left .icon {
+#fh5co-features .feature .icon {
   display: table;
   text-align: center;
   width: 100px;
@@ -237,29 +237,29 @@ h1, h2, h3, h4, h5, h6, figure {
   -ms-border-radius: 50%;
   border-radius: 50%;
 }
-#fh5co-features .feature-left .icon i {
+#fh5co-features .feature .icon i {
   font-size: 50px;
   display: table-cell;
   vertical-align: middle;
   height: 100px;
   color: #FF9000 !important;
 }
-#fh5co-features .feature-left .feature-copy {
+#fh5co-features .feature .feature-copy {
   width: 100%;
 }
-#fh5co-features .feature-left h3 {
+#fh5co-features .feature h3 {
   font-size: 24px;
   font-weight: 400;
   color: #FF9000;
 }
-#fh5co-features .feature-left p {
+#fh5co-features .feature p {
   font-size: 16px;
   color: rgba(255, 255, 255, 0.7);
 }
-#fh5co-features .feature-left p:last-child {
+#fh5co-features .feature p:last-child {
   margin-bottom: 0;
 }
-#fh5co-features .feature-left p a {
+#fh5co-features .feature p a {
   color: #000 !important;
 }
 
