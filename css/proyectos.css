@@ -1,0 +1,11 @@
+.margen-top{
+    margin-top: 15px;
+}
+
+.carousel-indicators li {	
+	border: 1px solid #000;	
+}
+
+.carousel-indicators .active {	
+	background-color: #000;
+}
