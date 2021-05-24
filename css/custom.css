@@ -12,3 +12,7 @@
 .carousel-indicators li{
   background-color: black;
 }
+
+.modal-ancho{
+  max-width: 800px;
+}
