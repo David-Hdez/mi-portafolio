@@ -277,22 +277,28 @@
                 <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item filter-2 wow fadeInUp" data-wow-delay="0.2s">
                     <div class="portfolio-wrap">
                         <div class="portfolio-img">
-                            <img src="img/portfolio-2.jpg" alt="Image">
+                            <img src="img/proyectos/memorama/mystery.jpg" alt="Memorama">
                         </div>
                         <div class="portfolio-text">
                             <h3>Memorama</h3>
-                            <a class="btn" href="img/portfolio-2.jpg" data-lightbox="portfolio">+</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn" data-toggle="modal" data-target="#memoramaModal">
+                                +
+                            </button>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-12 portfolio-item wow fadeInUp" data-wow-delay="0.4s">
                     <div class="portfolio-wrap">
                         <div class="portfolio-img">
-                            <img src="img/portfolio-3.jpg" alt="Image">
+                            <img src="img/concurso.jpg" alt="Cien Mexicanos">
                         </div>
                         <div class="portfolio-text">
                             <h3>Cien Mexicanos</h3>
-                            <a class="btn" href="img/portfolio-3.jpg" data-lightbox="portfolio">+</a>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn" data-toggle="modal" data-target="#ciemMxnModal">
+                                +
+                            </button>
                         </div>
                     </div>
                 </div>
@@ -313,29 +319,31 @@
                             <div id="success"></div>
                             <form name="sentMessage" id="contactForm" novalidate="novalidate">
                                 <div class="control-group">
-                                    <input type="text" class="form-control" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block"></p>
-                                </div>
-                                <div class="control-group">
-                                    <input type="email" class="form-control" id="email" placeholder="Your Email"
+                                    <input type="text" class="form-control" id="name" placeholder="Nombre"
                                         required="required"
-                                        data-validation-required-message="Please enter your email" />
+                                        data-validation-required-message="Por favor, ingresa tu nombre" />
                                     <p class="help-block"></p>
                                 </div>
                                 <div class="control-group">
-                                    <input type="text" class="form-control" id="subject" placeholder="Subject"
-                                        required="required" data-validation-required-message="Please enter a subject" />
-                                    <p class="help-block"></p>
-                                </div>
-                                <div class="control-group">
-                                    <textarea class="form-control" id="message" placeholder="Message"
+                                    <input type="email" class="form-control" id="email" placeholder="Email"
                                         required="required"
-                                        data-validation-required-message="Please enter your message"></textarea>
+                                        data-validation-required-message="Por favor, ingresa tu dirección de correo" />
+                                    <p class="help-block"></p>
+                                </div>
+                                <div class="control-group">
+                                    <input type="text" class="form-control" id="subject" placeholder="Asunto"
+                                        required="required"
+                                        data-validation-required-message="Por favor, ingresa un asunto" />
+                                    <p class="help-block"></p>
+                                </div>
+                                <div class="control-group">
+                                    <textarea class="form-control" id="message" placeholder="Mensaje"
+                                        required="required"
+                                        data-validation-required-message="Por favor, escribe tu mensaje"></textarea>
                                     <p class="help-block"></p>
                                 </div>
                                 <div>
-                                    <button class="btn" type="submit" id="sendMessageButton">Send Message</button>
+                                    <button class="btn" type="submit" id="sendMessageButton">Enviar mensaje</button>
                                 </div>
                             </form>
                         </div>
@@ -428,6 +436,163 @@
         </div>
     </div>
 
+    <!-- Modal -->
+    <div class="modal fade" id="ciemMxnModal" tabindex="-1" aria-labelledby="ciemMxnModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="ciemMxnModalLabel">Cien Mexicanos</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="carouselCienMxnIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselMemoramaIndicators" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#carouselCienMxnIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselCienMxnIndicators" data-slide-to="2"></li>
+                                        <li data-target="#carouselCienMxnIndicators" data-slide-to="3"></li>
+                                        <li data-target="#carouselCienMxnIndicators" data-slide-to="4"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/proyectos/cien-mexicanos/tablero.png" class="d-block w-100"
+                                                alt="Tablero">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/proyectos/cien-mexicanos/panel-prguntas.png"
+                                                class="d-block w-100" alt="Panel de preguntas">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/proyectos/cien-mexicanos/panel-ronda.png"
+                                                class="d-block w-100" alt="Panel de preguntas">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/proyectos/cien-mexicanos/tablero-strikes.png"
+                                                class="d-block w-100" alt="Ronda">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/proyectos/cien-mexicanos/panel-pregunta-seleccionada.png"
+                                                class="d-block w-100" alt="Preguntas">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselCienMxnIndicators" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselCienMxnIndicators" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Siguiente</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <p>Projecto para presentación final en Instituto CompuIngles, donde complete
+                                    un curso de Inglés. La aplicación desarrollada en Windows Forms, asemeja al programa
+                                    de TV,
+                                    donde se hacen preguntas a concursantes para adivinar las respuestas, el proyecto
+                                    asemeja un
+                                    panel, donde el anfitrión visualiza y pregunta a los concursantes revelando las
+                                    respuestas que se mostrarán en otra
+                                    ventana visualizando los resultados.</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <a target="_blank" href="https://github.com/David-Hdez/Cien-Mexicanos">Repositorio: <i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="memoramaModal" tabindex="-1" aria-labelledby="memoramaModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="memoramaModalLabel">Memorama</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-12">
+                                <div id="carouselMemoramaIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselMemoramaIndicators" data-slide-to="0" class="active">
+                                        </li>
+                                        <li data-target="#carouselMemoramaIndicators" data-slide-to="1"></li>
+                                        <li data-target="#carouselMemoramaIndicators" data-slide-to="2"></li>
+                                        <li data-target="#carouselMemoramaIndicators" data-slide-to="3"></li>
+                                        <li data-target="#carouselMemoramaIndicators" data-slide-to="4"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img src="img/proyectos/larafoto/publicacion.jpeg" class="d-block w-100"
+                                                alt="Publicación">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/proyectos/larafoto/comentarios.jpeg" class="d-block w-100"
+                                                alt="Comentarios">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/proyectos/larafoto/subiendo-imagen.jpeg" class="d-block w-100"
+                                                alt="Cargando imágen">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/proyectos/larafoto/cuenta.jpeg" class="d-block w-100"
+                                                alt="Perfil de usuario">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="img/proyectos/larafoto/perfiles.jpeg" class="d-block w-100"
+                                                alt="Perfiles">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselMemoramaIndicators" role="button"
+                                        data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Anterior</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselMemoramaIndicators" role="button"
+                                        data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Siguiente</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <div class="col-12">
+                                <p>Juego de memorama freeCodeCamp</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <a target="_blank" href="https://github.com/David-Hdez/Cien-Mexicanos">Repositorio: <i
+                                        class="fab fa-github"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Footer Start -->
     <div class="footer wow fadeIn" data-wow-delay="0.3s">
@@ -436,13 +601,14 @@
                 <div class="footer-info">
                     <h2>David Pacheco</h2>
                     <div class="footer-social">
-                        <a href=""><i class="fab fa-facebook-f"></i></a>
                         <a href="https://www.linkedin.com/in/david-alfredo-hdez/"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
             <div class="container copyright">
                 <p>All Right Reserved | Designed By <a href="https://htmlcodex.com">HTML Codex</a></p>
+                <p>Vector de Personas creado por <a href='https://www.freepik.es/vectores/personas'>pch.vector -
+                        www.freepik.es</a></p>
             </div>
         </div>
     </div>
