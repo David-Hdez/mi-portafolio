@@ -1,7 +1,7 @@
 @media (min-width: 720px) {
-    .hero .hero-content {
-       height: 600px;
-    }
+  .hero .hero-content {
+    height: 600px;
+  }
 }
 
 .carousel-control-prev-icon,
@@ -10,5 +10,5 @@
 }
 
 .carousel-indicators li{
-background-color: black;
+  background-color: black;
 }
